@@ -1,0 +1,17 @@
+ul{
+    list-style: none;
+    li{
+        text-decoration: none;
+    }
+} 
+
+a{
+    text-decoration: none;
+}
+
+.foot_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+}
+ 

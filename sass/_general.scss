@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans&display=swap');
+
 .imgagenes_muestras{
     max-width: 100%;
     height: auto;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
 }

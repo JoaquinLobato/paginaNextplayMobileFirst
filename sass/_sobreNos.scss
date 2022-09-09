@@ -1,11 +1,39 @@
 .sobre_nos_info{
     display: flex;
     flex-direction: column;
-
+    margin-bottom: 30px;
 }
 
 .sobre_img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.box_1{
+    order: 1;
+    padding: 15px 15px 15px 5px;
+}
+
+.box_2{
+    order: 2;
+}
+
+.box_3{
+    order: 4;
+}
+
+.box_4{
+    order: 3;
+    padding: 15px 15px 15px 5px;
+}
+
+.box_5{
+    order: 5;
+    padding: 15px 15px 15px 5px;
+    
+}
+
+.box_6{
+    order: 6;
 }

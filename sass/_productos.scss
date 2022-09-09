@@ -1,0 +1,32 @@
+.carousel-control-next{
+    right: -27px;
+}
+
+.carousel-control-prev{
+    left: -27px;
+}
+
+.card{
+    --bs-card-border-width: 0px
+
+}
+
+.card-img-top{
+    margin: 20px 5px 20px 5px;
+
+}
+
+.card-title{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.card-text{
+    padding: 20px;
+}
+
+.card-text:last-child{
+    margin-bottom: 10px;
+}

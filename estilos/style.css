@@ -41,9 +41,22 @@ a {
 
 h1 {
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  margin: 15px 4px 25px 4px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.display_monitores {
+  margin-bottom: 30px;
 }
 
 .logo {
@@ -74,4 +87,46 @@ ul li {
   padding: 5px;
   margin-top: 35px;
   margin-bottom: 70px;
+}
+
+.carousel-control-next {
+  right: -27px;
+}
+
+.carousel-control-prev {
+  left: -27px;
+}
+
+.card {
+  --bs-card-border-width: 0px ;
+}
+
+.card-img-top {
+  margin: 20px 5px 20px 5px;
+}
+
+.card-title {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-text:last-child {
+  margin-bottom: 10px;
+}
+
+.sobre_nos_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.sobre_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=style.css.map */

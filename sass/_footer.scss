@@ -1,3 +1,5 @@
+$color_border: linear-gradient(125deg, rgba(164,210,103,0.9335084375547094) 71%, rgba(136,135,138,1) 92%);
+
 ul{
     list-style: none;
     li{
@@ -16,11 +18,13 @@ a{
     padding: 3px;
     row-gap: 10px;
     margin-top: 15px;
+    
 }
 
 .fa{
     font-size: 30px;
     text-align: center;
+    color: #88878a;
 
 }
 
@@ -28,4 +32,33 @@ a{
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
 }
- 
+
+footer{
+    background: rgb(136,135,138);
+    background: linear-gradient(180deg, rgba(136,135,138,0.8298669809720763) 0%, rgba(164,210,103,0.9475140397956058) 6%, rgba(164,210,103,0.9335084375547094) 95%, rgba(136,135,138,0.8354692218684349) 100%);
+    padding: 20px;
+}
+
+.foot_text{
+    font-size: 16px;
+}
+
+@media (min-width: 768px){
+    footer{
+        padding: 17px 0px 17px 0px;
+    }
+    .foot_text{
+        text-align: left;
+        text-justify: auto;
+        padding-left: 8px;
+        font-size: 18px;
+    
+    }
+    .foot_icon{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .fa{
+        font-size: 35px;
+    }
+}

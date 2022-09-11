@@ -22,6 +22,7 @@ a {
 .fa {
   font-size: 30px;
   text-align: center;
+  color: #88878a;
 }
 
 .foot_div {
@@ -29,8 +30,36 @@ a {
   font-family: "Noto Sans", sans-serif;
 }
 
+footer {
+  background: rgb(136, 135, 138);
+  background: linear-gradient(180deg, rgba(136, 135, 138, 0.829866981) 0%, rgba(164, 210, 103, 0.9475140398) 6%, rgba(164, 210, 103, 0.9335084376) 95%, rgba(136, 135, 138, 0.8354692219) 100%);
+  padding: 20px;
+}
+
+.foot_text {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 17px 0px 17px 0px;
+  }
+  .foot_text {
+    text-align: left;
+    text-justify: auto;
+    padding-left: 8px;
+    font-size: 18px;
+  }
+  .foot_icon {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .fa {
+    font-size: 35px;
+  }
+}
 .imgagenes_muestras {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -42,32 +71,61 @@ a {
 h1 {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-family: "Montserrat", sans-serif;
+  font-size: 35px;
 }
 
 p {
   font-family: "Noto Sans", sans-serif;
   margin: 15px 4px 25px 4px;
   padding: 15px 15px 15px 5px;
+  font-size: 18px;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   padding-left: 5px;
+  font-size: 27px;
 }
 
 .display_monitores {
   margin-bottom: 30px;
 }
 
+.img_index {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 47px;
+  }
+  h2 {
+    font-size: 33px;
+  }
+  p {
+    font-size: 19px;
+  }
+  .img_index {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
 .logo {
   width: 200px;
-  height: 65px;
+  height: 69px;
+  margin-bottom: 10px;
 }
 
 nav {
   margin-bottom: 30px;
+  border-bottom: solid 8px;
+  border-image: linear-gradient(125deg, rgba(164, 210, 103, 0.9335084376) 71%, rgb(136, 135, 138) 92%) 1;
 }
 
 .navbar-nav {
@@ -81,16 +139,48 @@ nav {
 
 ul li {
   font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
+.nav-link:hover {
+  color: #a4d267;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+  }
+  ul li {
+    font-size: 22px;
+    text-align: center;
+  }
+  .logo {
+    width: 213px;
+    height: 73px;
+  }
+  #navbarNav {
+    margin-bottom: 0px;
+  }
+  .navbar {
+    padding-bottom: 0px;
+  }
+}
 .contacto_form {
   display: flex;
   flex-direction: column;
   padding: 5px;
   margin-top: 35px;
   margin-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+@media (min-width: 768px) {
+  .contacto_form {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
 .carousel-control-next {
   right: -27px;
 }
@@ -122,6 +212,14 @@ ul li {
   margin-bottom: 10px;
 }
 
+@media (min-width: 768px) {
+  .carousel-control-next {
+    right: -43px;
+  }
+  .carousel-control-prev {
+    left: -43px;
+  }
+}
 .sobre_nos_info {
   display: flex;
   flex-direction: column;
@@ -159,4 +257,19 @@ ul li {
 
 .box_6 {
   order: 6;
+}
+
+@media (min-width: 900px) {
+  .sobre_nos_info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  .box_3 {
+    order: 3;
+  }
+  .box_4 {
+    order: 4;
+  }
 }/*# sourceMappingURL=style.css.map */

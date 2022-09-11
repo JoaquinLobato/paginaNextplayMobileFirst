@@ -25,8 +25,19 @@
 
 .card-text{
     padding: 20px;
+    
 }
 
 .card-text:last-child{
     margin-bottom: 10px;
+}
+
+@media (min-width: 768px){
+    .carousel-control-next{
+        right: -43px;
+    }
+
+    .carousel-control-prev{
+        left: -43px;
+    }
 }

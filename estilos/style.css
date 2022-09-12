@@ -25,6 +25,14 @@ a {
   color: #88878a;
 }
 
+a.fa:link {
+  color: #88878a;
+}
+
+a.fa:visited {
+  color: #88878a;
+}
+
 .foot_div {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
@@ -58,6 +66,14 @@ footer {
     font-size: 35px;
   }
 }
+@media (min-width: 950px) {
+  .fa {
+    font-size: 38px;
+  }
+  .foot_text {
+    font-size: 20px;
+  }
+}
 .imgagenes_muestras {
   width: 100%;
   height: auto;
@@ -74,6 +90,16 @@ h1 {
   margin-bottom: 40px;
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
+  background: linear-gradient(125deg, rgba(136, 135, 138, 0.8354692219) 12%, rgba(164, 210, 103, 0.9335084376) 23%);
+  background-repeat: no-repeat;
+  background-size: 100% 5px;
+  background-position: bottom;
+}
+
+.titulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -116,6 +142,37 @@ h2 {
     margin-bottom: 30px;
   }
 }
+@media (min-width: 950px) {
+  h1 {
+    font-size: 49px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .img_sevicios {
+    width: 85%;
+    height: 85%;
+  }
+  .repuestos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 1100px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 37px;
+  }
+  p {
+    font-size: 22px;
+  }
+}
 .logo {
   width: 200px;
   height: 69px;
@@ -124,7 +181,7 @@ h2 {
 
 nav {
   margin-bottom: 30px;
-  border-bottom: solid 8px;
+  border-bottom: solid 6px;
   border-image: linear-gradient(125deg, rgba(164, 210, 103, 0.9335084376) 71%, rgb(136, 135, 138) 92%) 1;
 }
 
@@ -165,6 +222,17 @@ ul li {
     padding-bottom: 0px;
   }
 }
+@media (min-width: 950px) {
+  .logo {
+    width: 220px;
+    height: 76px;
+  }
+  ul li {
+    font-size: 24px;
+    text-align: center;
+    margin-right: 4px;
+  }
+}
 .contacto_form {
   display: flex;
   flex-direction: column;
@@ -175,6 +243,15 @@ ul li {
   padding-right: 20px;
 }
 
+.form_enviar {
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: #88878a;
+  border-color: #88878a;
+}
+
 @media (min-width: 768px) {
   .contacto_form {
     padding-left: 40px;
@@ -182,11 +259,11 @@ ul li {
   }
 }
 .carousel-control-next {
-  right: -27px;
+  right: -23px;
 }
 
 .carousel-control-prev {
-  left: -27px;
+  left: -23px;
 }
 
 .card {
@@ -218,6 +295,29 @@ ul li {
   }
   .carousel-control-prev {
     left: -43px;
+  }
+}
+@media (min-width: 950px) {
+  .card-img-top {
+    width: 85%;
+    height: 85%;
+  }
+  .card {
+    align-items: center;
+  }
+  .carousel-control-next {
+    right: -60px;
+  }
+  .carousel-control-prev {
+    left: -60px;
+  }
+}
+@media (min-width: 1100px) {
+  .carousel-control-next {
+    right: -75px;
+  }
+  .carousel-control-prev {
+    left: -75px;
   }
 }
 .sobre_nos_info {
@@ -265,11 +365,21 @@ ul li {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
     align-items: center;
+    margin-top: 40px;
   }
   .box_3 {
     order: 3;
   }
   .box_4 {
     order: 4;
+  }
+}
+@media (min-width: 1100px) {
+  .box_4 {
+    padding-left: 40px;
+  }
+  .sobre_nos_info {
+    padding: 20px;
+    gap: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

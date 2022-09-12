@@ -28,6 +28,14 @@ a{
 
 }
 
+a.fa:link{
+    color: #88878a;
+}
+
+a.fa:visited{
+    color: #88878a;
+}
+
 .foot_div{
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
@@ -60,5 +68,14 @@ footer{
     }
     .fa{
         font-size: 35px;
+    }
+}
+
+@media (min-width: 950px){
+    .fa{
+        font-size: 38px;
+    }
+    .foot_text{
+        font-size: 20px;
     }
 }

@@ -7,7 +7,7 @@ $color_border: linear-gradient(125deg, rgba(164,210,103,0.9335084375547094) 71%,
 }
 nav{
     margin-bottom: 30px;
-    border-bottom: solid 8px;
+    border-bottom: solid 6px;
     border-image: $color_border;
     
 }
@@ -52,11 +52,18 @@ ul{
     .navbar{
         padding-bottom: 0px;
     }
+    
+}
+@media(min-width:950px){
+    .logo{
+        width: 220px;
+        height: 76px;
+    }
     ul{
         li{
-           
-        
-            
+            font-size: 24px;
+            text-align: center;
+            margin-right: 4px;     
         }
     }
 }
